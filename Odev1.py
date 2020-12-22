@@ -1,0 +1,17 @@
+u_name = input ("Please enter your name:")
+u_lname = input("Please enter your last name:")
+u_age = int(input("Please enter your age:"))
+u_id = int(input("Please enter your id:"))
+u_salary = float(input("Please enter your salary:"))
+
+print(f' name: {u_name}')
+print("surname:", u_lname)
+print(f' age: {u_age}')
+print("id:", u_id)
+print(f' salary: {u_salary}')
+
+type(u_name)
+type(u_lname)
+type(u_age)
+type(u_id)
+type(u_salary)
